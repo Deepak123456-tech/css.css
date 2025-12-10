@@ -1,0 +1,35 @@
+.one{
+    background-color: yellow;
+    width: 300px ;
+    height: 200px;
+}
+.one1{
+      width:200px ;
+      height:100px ;    
+}
+.one2{
+     background-color: lightblue;
+}
+.one3{
+    width: 250px;
+    height: 150px;
+}
+.one4{
+    background-color: green;
+}
+.one5{
+    width:150px;
+    height:150px;
+}
+.one{
+    display:inline;
+}
+.one1{
+    display:inline-block;
+}
+.one2{
+    display:block;
+}
+.one3{
+    display:none;
+}
