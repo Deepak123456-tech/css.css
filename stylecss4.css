@@ -1,0 +1,74 @@
+a:link{
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+a:visited{
+    color: green;
+    text-decoration: none;
+}
+a:active{
+    color: yellow;
+    text-decoration: underline;
+}
+h:nth-child(odd){
+    color: orange;
+}
+h:nth-child(even){
+    color: purple;
+}
+h::first-letter{
+    font-size: 200%;
+    color: brown;
+}
+h::first-line{
+    font-weight: bold;
+}
+p.selection{
+    background-color: lightgrey;
+    color: black;
+}
+h1.before{
+    content: "Heading 1: ";
+}
+h2.after{
+    content: " :Heading 2";
+}   
+btn:hover{
+    background-color: lightblue;
+    width: 300px;
+    height: 300px;
+    transition: all is ease 0s;
+}         
+btn:hover{
+    background-color: lightgreen;
+    width: 500px;
+    height: 500px;
+    transition: all is ease-in 0s;
+}
+btn:hover{
+    background-color: lightcoral;
+    width: 700px;
+    height: 700px;
+    transition: all is ease-out 0s;
+}
+btn:hover{
+    background-color: lightpink;
+    width: 900px;
+    height: 900px;
+    transition: all is ease-in-out 0s;
+}
+.iamge{
+    width:100px;
+    height:100px;
+    transition: all is linear os;
+    margin:200px
+}
+.image:hover{
+    transform: translateX(300px) rotate(360deg) sacle(4);
+}
+    
