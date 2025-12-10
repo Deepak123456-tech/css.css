@@ -1,0 +1,41 @@
+.box1>h1{
+    background-color: red;
+}
+.box1 h1{
+    background-color: yellow;
+}
+.box2+h2{
+    background-color: green;
+}
+.box2~h2{
+    background-color: blue;
+}   
+.btn{
+    background-color: orange;
+}
+.btn:hover{
+    background-color: pink;
+}
+.textbox:focus{
+    border: 2px solid purple;
+}
+.textbox{
+    border: 2px solid gray;
+}
+.text{
+    display:none;
+}
+.balaya:hover+.text{
+    display:block;
+}   
+.container{
+    width: 200px;
+    height: 200px;
+    border:10px solid black;
+}
+.text1{
+    display:none;
+}
+.container:hover>.text1{
+    display:block;
+}
