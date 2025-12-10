@@ -1,0 +1,32 @@
+.contanier{
+    width: 800px;
+    height: 800px;
+    border:10px solid black;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+}
+.container:hover .text{
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.body{
+    background-color: rgb(red, green, blue);
+}
